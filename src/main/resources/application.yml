@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: local.orders
+          contentType: application/json
+          
+server:
+  port: 9500
